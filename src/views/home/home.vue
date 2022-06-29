@@ -2,7 +2,7 @@
     <div class="snap-y snap-mandatory h-screen overflow-scroll">
         <div class="snap-start hero min-h-screen bg-base-500">
             <div class="hero-content">
-                <div class="max-w-md">
+                <div class="max-w-md text-center md:text-left">
                     <h1>Hi, I'm</h1>
                     <h1 class="text-primary text-5xl font-bold">
                         <span class="tooltip" data-tip="Pronounced Lawrence">Laurens</span>
@@ -17,8 +17,8 @@
             </div>
         </div>
         <div class="snap-start hero min-h-screen bg-yellow-50">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <div>
+            <div class="hero-content">
+                <div class="text-center md:text-left">
                     <h1 class="text-primary text-5xl font-bold">
                         About<span class="text-accent">.</span>
                     </h1>
@@ -32,7 +32,7 @@
         </div>
         <div class="snap-start hero min-h-screen bg-base-500">
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <div>
+                <div class="text-center md:text-left">
                     <h1 class="text-primary text-5xl font-bold">
                         Skills<span class="text-accent">.</span>
                     </h1>
