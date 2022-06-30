@@ -4,19 +4,31 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  theme: {
-    dark: {
-      primary: "#ff79c6",
-      secondary: "#bd93f9",
-      accent: "#ffb86c",
-      neutral: "#414558",
-      "base-100": "#282a36",
-      "base-content": "#f8f8f2",
-      info: "#8be9fd",
-      success: "#50fa7b",
-      warning: "#f1fa8c",
-      error: "#ff5555",
-    }
-  },
+  theme: {},
   plugins: [require("daisyui")],
+  daisyui: {
+    styled: true,
+    themes: [{
+      light: {
+        ...require("daisyui/src/colors/themes")["[data-theme=light]"],
+        primary: "#f6994b",
+        secondary: "#1c74bc",
+        accent: "#1965a3",
+        neutral: "#000000",
+        "base-100": "#EEEFF7", //orginal: #FFFFFF
+      },
+      dark: {
+        ...require("daisyui/src/colors/themes")["[data-theme=dracula]"],
+        primary: "#f6994b",
+        secondary: "#1c74bc",
+        accent: "#1965a3",
+      }
+    }, ],
+    base: true,
+    utils: true,
+    logs: false,
+    rtl: false,
+    prefix: "",
+    darkTheme: "dark",
+  },
 }
