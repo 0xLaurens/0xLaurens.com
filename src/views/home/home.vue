@@ -23,7 +23,10 @@
     </div>
     <div class="hero mx-auto min-h-screen bg-yellow-50">
         <div class="hero-content flex-col lg:flex-row-reverse">
-            <img src="../../assets/dev.svg" class="mx-auto lg:max-w-md 4xl:max-w-lg rounded-lg" />
+            <img
+                src="../../assets/thinking.svg"
+                class="mx-auto lg:max-w-md 4xl:max-w-lg rounded-lg"
+            />
             <div class="md:max-w-md">
                 <h1 class="text-primary text-5xl font-bold">
                     About<span class="text-accent">.</span>
@@ -37,7 +40,7 @@
     </div>
     <div class="mx-auto grid place-items-center min-h-screen bg-base-100">
         <div class="flex gap-4 items-center content-center flex-col lg:flex-row max-w-3xl">
-            <img src="../../assets/skills.svg" class="mx-auto sm:max-w-sm rounded-lg" />
+            <img src="../../assets/DevSkills.svg" class="mx-auto sm:max-w-sm rounded-lg" />
             <div>
                 <h1 class="text-primary text-5xl font-bold">
                     Skills<span class="text-accent">.</span>
