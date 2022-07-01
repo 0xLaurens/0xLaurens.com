@@ -14,8 +14,7 @@ module.exports = {
         primary: "#f6994b",
         secondary: "#1c74bc",
         accent: "#1965a3",
-        neutral: "#000000",
-        "base-100": "#EEEFF7", //orginal: #FFFFFF
+        "base-100": "#ffffff", //orginal: #FFFFFF
       },
       dark: {
         ...require("daisyui/src/colors/themes")["[data-theme=dracula]"],
