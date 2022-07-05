@@ -1,20 +1,20 @@
 <template>
-    <div class="hero min-h-screen bg-base-500">
+    <div class="hero min-h-screen bg-base-500 w-full">
         <div class="hero-content flex-col lg:flex-row">
-            <img src="../../assets/dev.svg" class="mx-auto lg:max-w-md 4xl:max-w-lg rounded-lg" />
+            <img src="../../assets/dev.svg" />
             <div class="max-w-md text-center md:text-left">
-                <h1 class="text-contrast">Hi, I'm</h1>
-                <h1 class="text-primary text-5xl font-bold">
+                <h1 class="">Hi, I'm</h1>
+                <h1 class="text-5xl font-bold">
                     <span class="tooltip" data-tip="Pronounced Lawrence">Laurens</span>
-                    Weterings<span class="text-accent">.</span>
+                    Weterings.
                 </h1>
-                <h1 class="text-3xl pb-6 text-secondary">Software Engineer.</h1>
-                <h1 class="text-xl text-center">
-                    Computer science student passionate about cyber security and new technologies.
-                </h1>
-                <div class="flex py-5 w-full justify-center lg:justify-end">
-                    <button class="btn btn-secondary" href="#about">
-                        <eye-icon class="h-5 w-5 mx-2" /> View portfolio
+                <h1 class="text-3xl pb-6">Software Engineer.</h1>
+                <div class="flex justify-between">
+                    <button class="btn btn-outline btn-primary w-[45%]" href="#about">
+                        <user-icon class="h-5 w-5 mr-2" /> About me
+                    </button>
+                    <button class="btn btn-primary justify-self-end w-[50%]" href="#portfolio">
+                        <eye-icon class="h-5 w-5 mr-2" /> portfolio
                     </button>
                 </div>
             </div>
@@ -23,5 +23,5 @@
 </template>
 
 <script setup>
-import { EyeIcon } from "@heroicons/vue/outline";
+import { EyeIcon, UserIcon } from "@heroicons/vue/solid";
 </script>
