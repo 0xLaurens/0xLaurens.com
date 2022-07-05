@@ -4,7 +4,13 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        custom: "'Roboto', serif"
+      }
+    }
+  },
   plugins: [require("daisyui")],
   daisyui: {
     styled: true,
@@ -17,10 +23,19 @@ module.exports = {
         "base-100": "#ffffff", //orginal: #FFFFFF
       },
       dark: {
-        ...require("daisyui/src/colors/themes")["[data-theme=dracula]"],
         primary: "#6C63FF",
+        "primary-content": "#ffffff",
         secondary: "#3930AF",
+        "secondary-content": "#ffffff",
         accent: "#DE7682",
+        "accent-content": "#ffffff",
+        neutral: "#191D24",
+        "neutral-focus": "#111318",
+        "neutral-content": "#A6ADBB",
+        "base-100": "#2A303C",
+        "base-200": "#242933",
+        "base-300": "#20252E",
+        "base-content": "#A6ADBB",
       }
     }, ],
     base: true,

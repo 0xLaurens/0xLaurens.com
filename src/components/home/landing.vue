@@ -1,19 +1,25 @@
 <template>
-    <div class="hero min-h-screen bg-base-500 w-full">
+    <div class="hero min-h-screen bg-base-500 w-full font-custom">
         <div class="hero-content flex-col lg:flex-row">
             <img src="../../assets/dev.svg" />
             <div class="max-w-md text-center md:text-left">
-                <h1 class="">Hi, I'm</h1>
+                <h1 class="font-medium">Hi, I'm</h1>
                 <h1 class="text-5xl font-bold">
                     <span class="tooltip" data-tip="Pronounced Lawrence">Laurens</span>
                     Weterings.
                 </h1>
-                <h1 class="text-3xl pb-6">Software Engineer.</h1>
+                <h1 class="text-3xl font-light pb-6">Software Engineer.</h1>
                 <div class="flex justify-between">
-                    <button class="btn btn-outline btn-primary w-[45%]" href="#about">
-                        <user-icon class="h-5 w-5 mr-2" /> About me
+                    <button
+                        class="btn btn-outline btn-primary w-[45%] font-extrabold text-base rounded-xl"
+                        href="#about"
+                    >
+                        <user-icon class="h-5 w-5 mr-2" /> about me
                     </button>
-                    <button class="btn btn-primary justify-self-end w-[50%]" href="#portfolio">
+                    <button
+                        class="btn btn-primary justify-self-end w-[50%] font-extrabold text-base rounded-xl"
+                        href="#portfolio"
+                    >
                         <eye-icon class="h-5 w-5 mr-2" /> portfolio
                     </button>
                 </div>
