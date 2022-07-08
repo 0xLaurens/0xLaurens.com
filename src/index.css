@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* DaisyUI altering */
 .btn {
     @apply lowercase;
+}
+
+.card-actions {
+    @apply inline-flex gap-2
+}
+
+.badge {
+    @apply h-7 rounded-xl px-5 lowercase font-medium
+}
+
+
+/* Custom styling */
+.line {
+    @apply bg-primary h-1.5 w-28 rounded-lg;
 }

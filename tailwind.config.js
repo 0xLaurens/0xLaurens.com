@@ -21,6 +21,9 @@ module.exports = {
         secondary: "#3930AF",
         accent: "#DE7682",
         "base-100": "#ffffff", //orginal: #FFFFFF
+        "base-200": "#E8E8E8",
+        "base-300": "#CCCCCC",
+
       },
       dark: {
         primary: "#6C63FF",
@@ -33,8 +36,8 @@ module.exports = {
         "neutral-focus": "#111318",
         "neutral-content": "#A6ADBB",
         "base-100": "#2A303C",
-        "base-200": "#242933",
-        "base-300": "#20252E",
+        "base-200": "#E8E8E8",
+        "base-300": "#CCCCCC",
         "base-content": "#A6ADBB",
       }
     }, ],
