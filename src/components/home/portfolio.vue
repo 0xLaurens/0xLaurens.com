@@ -1,11 +1,11 @@
 <template>
     <div class="flex min-h-screen bg-base-200 font-custom justify-center content-center">
-        <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-4 bg-base-200 self-center">
+        <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-4 self-center">
             <div class="col-span-3 rounded-lg">
                 <h1 class="text-5xl font-bold text-black">
                     Portfolio<span class="text-accent">.</span>
+                    <div class="line w-32" />
                 </h1>
-                <div class="line w-32" />
             </div>
 
             <div class="col-span-3 md:col-span-1 row-span-1 md:row-start-2 md:row-end-3 rounded-lg">
