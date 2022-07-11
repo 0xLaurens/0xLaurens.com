@@ -4,6 +4,7 @@
     <portfolio id="portfolio" />
     <about id="about" />
     <skills id="skills" />
+    <contact id="contact" />
 
     <cfooter class="" />
 </template>
