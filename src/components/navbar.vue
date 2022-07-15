@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar sticky bg-white/60 z-50 px-16 font-custom">
+    <div class="navbar sticky bg-white/60 z-50 px-16 font-custom text-black">
         <div class="flex-1">
             <a class="btn btn-ghost normal-case text-xl font-bold"
                 ><span class="text-primary">0x</span>Laurens</a

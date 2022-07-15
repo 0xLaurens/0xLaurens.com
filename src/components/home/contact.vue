@@ -2,7 +2,7 @@
     <div class="flex min-h-screen font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center w-full">
             <div class="col-span-3 rounded-lg">
-                <h1 class="text-5xl font-bold text-black">
+                <h1 class="text-5xl font-bold">
                     Contact.
                     <div class="line w-32" />
                 </h1>
@@ -25,7 +25,7 @@
                                         required
                                     />
                                     <label
-                                        class="peer-focus:font-medium absolute text-black duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                                        class="peer-focus:font-medium absolute duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                         >First name</label
                                     >
                                 </div>
@@ -37,7 +37,7 @@
                                     />
                                     <label
                                         for="floating_last_name"
-                                        class="peer-focus:font-medium absolute text-black duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                                        class="peer-focus:font-medium absolute duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                         >Last name</label
                                     >
                                 </div>
@@ -51,7 +51,7 @@
                                 />
                                 <label
                                     for="floating_email"
-                                    class="peer-focus:font-medium absolute text-black duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                                    class="peer-focus:font-medium absolute duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                     >Email address</label
                                 >
                             </div>

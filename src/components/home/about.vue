@@ -2,14 +2,14 @@
     <div class="flex min-h-screen font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-4 self-center">
             <div class="col-span-3 rounded-lg">
-                <h1 class="text-black text-5xl font-bold">
+                <h1 class="text-5xl font-bold">
                     About.
                     <div class="line w-32" />
                 </h1>
             </div>
 
             <div class="col-span-3 md:col-span-2 row-span-2 rounded-lg">
-                <p class="py-6 text-black font-light text-3xl leading-relaxed xl:pr-96">
+                <p class="py-6 font-light text-3xl leading-relaxed xl:pr-96">
                     I'm a <span class="underline">fullstack developer</span> based in the
                     Netherlands. Currently studying Computer science at Avans University of applied
                     sciences.
