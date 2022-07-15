@@ -1,6 +1,6 @@
 <template>
     <div class="flex min-h-screen font-custom justify-center content-center">
-        <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center">
+        <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center w-full">
             <div class="col-span-3 rounded-lg">
                 <h1 class="text-5xl font-bold text-black">
                     Contact.
@@ -8,12 +8,12 @@
                 </h1>
             </div>
 
-            <div class="col-span-3 md:col-span-1 row-span-3 bg-base-200 rounded-3xl rounded-r-none">
-                <img class="h-full" src="../../assets/contact.svg" />
+            <div class="col-span-3 md:col-span-1 row-span-3 justify-self-center">
+                <img class="h-full max-w-s" src="../../assets/contact.svg" />
             </div>
 
             <div class="col-span-3 md:col-span-2 row-span-3">
-                <div class="card md:rounded-l-none bg-base-200 h-full">
+                <div class="card md:rounded-l-none h-full">
                     <div class="card-body text-lg font-normal font-custom">
                         <form>
                             <div class="grid md:grid-cols-2 md:gap-6">
@@ -63,7 +63,9 @@
                                     placeholder="message"
                                 ></textarea>
                             </div>
-                            <button class="btn btn-primary w-full text-lg">Submit.</button>
+                            <button class="btn btn-primary w-full md:w-auto md:px-10 text-lg">
+                                Submit.
+                            </button>
                         </form>
                     </div>
                 </div>
