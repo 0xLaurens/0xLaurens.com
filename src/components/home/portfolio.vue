@@ -27,7 +27,7 @@
             </div>
 
             <div
-                class="col-span-3 md:col-span-2 row-span-3 row-start-2 md:row-start3 md:row-span-2 z-50"
+                class="col-span-3 md:col-span-2 row-span-3 row-start-2 md:row-start3 md:row-span-2"
             >
                 <img
                     class="rounded-xl md:rounded-tl-none h-full"

@@ -17,7 +17,7 @@
             </div>
 
             <div
-                class="col-span-2 md:col-span-1 xl:col-span-1 xl:col-start-3 row-span-3 md:row-span-2 z-50 col-start-2"
+                class="col-span-2 md:col-span-1 xl:col-span-1 xl:col-start-3 row-span-3 md:row-span-2 col-start-2"
             >
                 <img
                     src="../../assets/about.svg"
