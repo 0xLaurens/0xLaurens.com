@@ -7,11 +7,11 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal text-xl font-normal">
-                <li><a>home.</a></li>
-                <li><a>portfolio.</a></li>
-                <li><a>about.</a></li>
-                <li><a>skills.</a></li>
-                <li><a>contact.</a></li>
+                <li><a href="#home">home.</a></li>
+                <li><a href="#portfolio">portfolio.</a></li>
+                <li><a href="#about">about.</a></li>
+                <li><a hreff="#skills">skills.</a></li>
+                <li><a href="#contact">contact.</a></li>
             </ul>
         </div>
     </div>
