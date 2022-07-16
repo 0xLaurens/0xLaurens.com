@@ -1,6 +1,6 @@
 <template>
     <NavBar class="sticky top-0 z-50" />
-    <landing id="landing" />
+    <landing id="home" />
     <portfolio id="portfolio" />
     <about id="about" />
     <skills id="skills" />

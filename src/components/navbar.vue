@@ -10,7 +10,7 @@
                 <li><a href="#home">home.</a></li>
                 <li><a href="#portfolio">portfolio.</a></li>
                 <li><a href="#about">about.</a></li>
-                <li><a hreff="#skills">skills.</a></li>
+                <li><a href="#skills">skills.</a></li>
                 <li><a href="#contact">contact.</a></li>
             </ul>
         </div>
