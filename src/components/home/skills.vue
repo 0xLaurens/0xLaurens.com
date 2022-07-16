@@ -1,7 +1,7 @@
 <template>
     <div class="flex min-h-screen bg-base-200 font-custom justify-center content-center py-20">
         <div
-            class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-x-16 gap-y-10 self-center w-full"
+            class="grid grid-cols-3 grid-flow-row px-5 md:px-16 md:gap-x-4 lg:gap-x-16 gap-y-10 w-full"
         >
             <div class="col-span-3 rounded-lg">
                 <h1 class="text-black text-5xl font-bold">
@@ -11,9 +11,7 @@
             </div>
 
             <div class="col-span-3 md:col-span-1 row-span-1 md:row-start-2 md:row-end-3 rounded-lg">
-                <div
-                    class="flex-auto flex-col p-6 md:w-60 lg:w-64 h-72 md:h-96 bg-white rounded-lg"
-                >
+                <div class="p-6 w-full h-72 md:h-[26rem] bg-white rounded-lg">
                     <h2 class="text-center font-bold text-3xl text-black py-5">Front end.</h2>
                     <div class="flex flex-wrap gap-3">
                         <div class="badge badge-outline text-black">
@@ -33,7 +31,7 @@
             </div>
 
             <div class="col-span-3 md:col-span-1">
-                <div class="p-6 w-full md:w-60 lg:w-64 h-72 md:h-96 bg-white rounded-lg">
+                <div class="p-6 w-full h-72 md:h-[26rem] bg-white rounded-lg">
                     <h2 class="text-center font-bold text-3xl text-black py-5">Back end.</h2>
                     <div class="flex flex-wrap gap-3">
                         <div class="badge badge-outline text-black">
@@ -65,7 +63,7 @@
             </div>
 
             <div class="col-span-3 md:col-span-1 row-span-1 md:row-start-2 md:row-end-3 rounded-lg">
-                <div class="p-6 w-full md:w-60 lg:w-64 h-72 md:h-96 bg-white rounded-lg">
+                <div class="p-6 w-full h-72 md:h-[26rem] bg-white rounded-lg">
                     <h2 class="text-center font-bold text-3xl text-black py-5">Professional.</h2>
                     <div class="flex flex-wrap gap-3">
                         <div class="badge badge-outline text-black">
