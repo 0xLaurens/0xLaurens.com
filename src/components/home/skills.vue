@@ -1,7 +1,7 @@
 <template>
     <div class="flex min-h-[110vh] bg-base-200 font-custom justify-center content-center py-20">
         <div
-            class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-4 self-center gap-x-2 lg:gap-x-10"
+            class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center gap-x-2 lg:gap-x-10"
         >
             <div class="col-span-3 rounded-lg">
                 <h1 id="skills" class="title text-black text-5xl font-bold">
