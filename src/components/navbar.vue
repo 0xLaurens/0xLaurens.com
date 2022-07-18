@@ -14,7 +14,12 @@
                 </li>
             </ul>
             <div v-if="mobileView">
-                <a @click="openMobileNav = !openMobileNav"> <menu-alt1-icon class="h-10 w-10" /></a>
+                <a @click="openMobileNav = !openMobileNav">
+                    <menu-alt1-icon v-show="!openMobileNav" class="h-10 w-10"
+                /></a>
+                <a @click="openMobileNav = !openMobileNav">
+                    <x-icon v-show="openMobileNav" class="h-10 w-10"
+                /></a>
             </div>
         </div>
     </div>
@@ -33,7 +38,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { MenuAlt1Icon } from "@heroicons/vue/solid";
+import { MenuAlt1Icon, XIcon } from "@heroicons/vue/solid";
 
 const mobileView = ref(false);
 const openMobileNav = ref(false);
