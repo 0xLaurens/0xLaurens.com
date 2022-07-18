@@ -63,13 +63,18 @@ onMounted(() => {
         observer.observe(section);
     });
 
+    changeNav();
+
     window.addEventListener("resize", () => {
-        if (window.innerWidth <= 900) {
-            mobileView.value = true;
-        } else {
-            mobileView.value = false;
-            openMobileNav.value = false;
-        }
+        changeNav();
     });
 });
+function changeNav() {
+    if (window.innerWidth <= 900) {
+        mobileView.value = true;
+    } else {
+        mobileView.value = false;
+        openMobileNav.value = false;
+    }
+}
 </script>
