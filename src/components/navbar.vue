@@ -7,11 +7,11 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal text-xl font-normal">
-                <li><a href="#home">home.</a></li>
-                <li><a href="#portfolio">portfolio.</a></li>
-                <li><a href="#about">about.</a></li>
-                <li><a href="#skills">skills.</a></li>
-                <li><a href="#contact">contact.</a></li>
+                <li v-for="(link, index) in links" :key="link">
+                    <a :class="{ active: link == currentSection }" :href="`#${link}`"
+                        >{{ link }}.</a
+                    >
+                </li>
             </ul>
         </div>
     </div>
@@ -21,12 +21,14 @@
 import { ref, onMounted } from "vue";
 
 const currentSection = ref("");
+const links = ["home", "portfolio", "about", "skills", "contact"];
 onMounted(() => {
     const sections = document.querySelectorAll("section");
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.intersectionRatio > 0) {
                 console.log(entry.target.getAttribute("id"));
+                currentSection.value = entry.target.getAttribute("id");
             }
         });
     });
