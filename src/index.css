@@ -22,5 +22,5 @@
 }
 
 .active{
-    @apply decoration-primary decoration-[5px] underline-offset-4 underline bg-transparent text-black
+    @apply decoration-primary decoration-[5px] underline-offset-8 underline bg-transparent text-black
 }

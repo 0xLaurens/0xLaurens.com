@@ -7,7 +7,7 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal text-xl font-normal">
-                <li v-for="(link, index) in links" :key="link">
+                <li v-for="(link, index) in links" :key="link" class="inline-block">
                     <a :class="{ active: link == currentSection }" :href="`#${link}`"
                         >{{ link }}.</a
                     >
