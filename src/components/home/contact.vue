@@ -58,7 +58,7 @@
                             <div class="py-2.5">
                                 <label for="message" class="block mb-2">Message</label>
                                 <textarea
-                                    class="textarea bg-inherit textarea-bordered outline-2 border-black focus:border-primary resize-y w-full capitalize font-custom"
+                                    class="textarea bg-inherit textarea-bordered outline-2 border-black border-2 focus:border-primary resize-y w-full capitalize font-custom"
                                     rows="3"
                                     placeholder="message"
                                 ></textarea>
