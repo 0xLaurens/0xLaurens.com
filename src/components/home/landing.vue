@@ -14,13 +14,13 @@
                 <h1 class="text-3xl font-light pb-6">Software Engineer.</h1>
                 <div class="flex justify-between">
                     <button
-                        class="btn btn-outline btn-primary w-[45%] font-extrabold text-base rounded-xl"
+                        class="btn btn-outline btn-primary w-[45%] font-extrabold text-base rounded-xl hover:bg-primary-focus"
                         href="#about"
                     >
                         <user-icon class="h-5 w-5 mr-2" /> about me
                     </button>
                     <button
-                        class="btn btn-primary justify-self-end w-[50%] font-extrabold text-base rounded-xl"
+                        class="btn btn-primary justify-self-end w-[50%] font-extrabold text-base rounded-xl hover:bg-primary-focus"
                         href="#portfolio"
                     >
                         <eye-icon class="h-5 w-5 mr-2" /> portfolio
