@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar sticky bg-white/60 z-50 px-16 font-custom text-black">
+    <div class="navbar sticky bg-white shadow-lg z-50 px-16 font-custom text-black">
         <div class="flex-1">
             <a class="btn btn-ghost normal-case text-xl font-bold"
                 ><span class="text-primary">0x</span>Laurens</a
@@ -17,4 +17,22 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted } from "vue";
+
+const currentSection = ref("");
+onMounted(() => {
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.intersectionRatio > 0) {
+                console.log(entry.target.getAttribute("id"));
+            }
+        });
+    });
+
+    sections.forEach((section) => {
+        observer.observe(section);
+    });
+});
+</script>
