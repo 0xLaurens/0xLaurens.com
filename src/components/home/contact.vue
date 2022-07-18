@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-[110vh] font-custom justify-center content-center py-20">
+    <div class="flex min-h-[110vh] font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center w-full">
             <div class="col-span-3 rounded-lg">
                 <h1 id="contact" class="title text-5xl font-bold">
