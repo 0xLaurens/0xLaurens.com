@@ -1,8 +1,8 @@
 <template>
-    <div class="flex min-h-screen font-custom justify-center content-center py-20">
+    <div class="flex min-h-[110vh] font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center w-full">
             <div class="col-span-3 rounded-lg">
-                <h1 class="text-5xl font-bold">
+                <h1 id="contact" class="title text-5xl font-bold">
                     Contact.
                     <div class="line w-32" />
                 </h1>
@@ -58,7 +58,7 @@
                             <div class="py-2.5">
                                 <label for="message" class="block mb-2">Message</label>
                                 <textarea
-                                    class="textarea bg-inherit textarea-bordered outline-2 border-black focus:border-primary resize-y w-full capitalize font-custom"
+                                    class="textarea bg-inherit textarea-bordered outline-2 border-black border-2 focus:border-primary resize-y w-full capitalize font-custom"
                                     rows="3"
                                     placeholder="message"
                                 ></textarea>

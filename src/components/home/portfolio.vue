@@ -1,8 +1,8 @@
 <template>
-    <div class="flex min-h-screen bg-base-200 font-custom justify-center content-center py-20">
+    <div class="flex min-h-[110vh] bg-base-200 font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center">
             <div class="col-span-3 rounded-lg">
-                <h1 class="text-5xl font-bold text-black">
+                <h1 id="portfolio" class="title text-5xl font-bold text-black">
                     Portfolio<span class="text-accent">.</span>
                     <div class="line w-32" />
                 </h1>
