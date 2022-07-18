@@ -53,7 +53,6 @@ onMounted(() => {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.intersectionRatio > 0) {
-                console.log(entry.target.getAttribute("id"));
                 currentSection.value = entry.target.getAttribute("id");
             }
         }, options);
