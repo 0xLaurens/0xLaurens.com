@@ -1,6 +1,6 @@
 <template>
     <section id="skills">
-        <div class="flex min-h-screen bg-base-200 font-custom justify-center content-center py-20">
+        <div class="flex h-[110vh] bg-base-200 font-custom justify-center content-center py-20">
             <div
                 class="grid grid-cols-3 grid-flow-row px-5 md:px-16 md:gap-x-4 lg:gap-x-16 gap-y-10 w-full"
             >

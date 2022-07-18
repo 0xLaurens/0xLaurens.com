@@ -22,6 +22,9 @@ import { ref, onMounted } from "vue";
 
 const currentSection = ref("");
 const links = ["home", "portfolio", "about", "skills", "contact"];
+const options = {
+    threshhold: 0.25,
+};
 onMounted(() => {
     const sections = document.querySelectorAll("section");
     const observer = new IntersectionObserver((entries) => {
@@ -30,7 +33,7 @@ onMounted(() => {
                 console.log(entry.target.getAttribute("id"));
                 currentSection.value = entry.target.getAttribute("id");
             }
-        });
+        }, options);
     });
 
     sections.forEach((section) => {

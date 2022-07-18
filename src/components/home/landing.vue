@@ -1,6 +1,6 @@
 <template>
     <section id="home">
-        <div class="hero min-h-screen bg-base-500 w-full font-custom py-20">
+        <div class="hero h-[110vh] bg-base-500 w-full font-custom py-20">
             <div class="hero-content flex-col lg:flex-row">
                 <img
                     src="../../assets/dev.svg"
