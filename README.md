@@ -40,7 +40,7 @@ The framework for the site is Vue 3. Vite is used within the project for rapid d
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 
-
+</div>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -49,6 +49,7 @@ To run the site locally the steps below will explain the process of setting the 
 
 ### Prerequisites
 _The following software is required for the installation and local development:_
+
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
@@ -57,23 +58,22 @@ _The following software is required for the installation and local development:_
 _Below are the steps for installing and running the programm locally._
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/0xLaurens/0xLaurens.io/
-   ```
+```sh
+git clone https://github.com/0xLaurens/0xLaurens.io/
+```
 2. Install NPM packages
-   ```sh
-   npm install
-   ```
+```sh
+npm install
+```
 3. Run the project
-   ```sh
-   npm run dev
-   ```
+```sh
+npm run dev
+```
 4. Make the project ready for deployment
-   ```sh
-   npm run build
-   ```
+```sh
+npm run build
+```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
