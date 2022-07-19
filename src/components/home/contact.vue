@@ -19,7 +19,13 @@
             <div class="col-span-3 md:col-span-2 row-span-3">
                 <div class="card md:rounded-l-none h-full">
                     <div class="card-body text-lg font-normal font-custom">
-                        <form id="contact" name="contact" netlify netlify-honeypot="bot-field">
+                        <form
+                            id="contact"
+                            method="POST"
+                            name="contact"
+                            netlify
+                            netlify-honeypot="bot-field"
+                        >
                             <input type="hidden" name="form-name" value="contact" />
                             <div class="grid md:grid-cols-2 md:gap-6">
                                 <div class="relative z-0 mb-6 w-full group">
@@ -83,12 +89,11 @@
                                     placeholder="Message"
                                 ></textarea>
                             </div>
-                            <button
+                            <input
                                 type="submit"
+                                value="Submit."
                                 class="btn btn-primary w-full md:w-auto md:px-10 text-lg"
-                            >
-                                Submit.
-                            </button>
+                            />
                         </form>
                     </div>
                 </div>
