@@ -9,7 +9,11 @@
             </div>
 
             <div class="col-span-3 md:col-span-1 row-span-3 justify-self-center">
-                <img class="h-full max-w-s" src="../../assets/contact.svg" />
+                <img
+                    alt="Contact information."
+                    class="h-full max-w-s"
+                    src="../../assets/contact.svg"
+                />
             </div>
 
             <div class="col-span-3 md:col-span-2 row-span-3">
@@ -19,24 +23,27 @@
                             <div class="grid md:grid-cols-2 md:gap-6">
                                 <div class="relative z-0 mb-6 w-full group">
                                     <input
+                                        id="firstname"
                                         type="text"
                                         class="block py-2.5 px-0 w-full bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
                                         placeholder=" "
                                         required
                                     />
                                     <label
+                                        for="firstname"
                                         class="peer-focus:font-medium absolute duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                         >First name</label
                                     >
                                 </div>
                                 <div class="relative z-0 mb-6 w-full group">
                                     <input
+                                        id="lastname"
                                         class="block py-2.5 px-0 w-full bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
                                         placeholder=" "
                                         required
                                     />
                                     <label
-                                        for="floating_last_name"
+                                        for="lastname"
                                         class="peer-focus:font-medium absolute duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                         >Last name</label
                                     >
@@ -44,13 +51,14 @@
                             </div>
                             <div class="relative z-0 mb-6 w-full group">
                                 <input
+                                    id="email"
                                     type="email"
                                     class="block py-2.5 px-0 w-full bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
                                     placeholder=" "
                                     required
                                 />
                                 <label
-                                    for="floating_email"
+                                    for="email"
                                     class="peer-focus:font-medium absolute duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                     >Email address</label
                                 >
@@ -58,6 +66,7 @@
                             <div class="py-2.5">
                                 <label for="message" class="block mb-2">Message</label>
                                 <textarea
+                                    id="message"
                                     class="textarea bg-inherit textarea-bordered outline-2 border-black border-2 focus:border-primary resize-y w-full capitalize font-custom"
                                     rows="3"
                                     placeholder="message"

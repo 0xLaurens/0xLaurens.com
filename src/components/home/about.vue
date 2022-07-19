@@ -20,6 +20,7 @@
                 class="col-span-2 md:col-span-1 xl:col-span-1 xl:col-start-3 row-span-3 md:row-span-2 col-start-2"
             >
                 <img
+                    alt="Developer next to tree"
                     src="../../assets/about.svg"
                     class="mx-auto lg:max-w-md 4xl:max-w-lg rounded-lg"
                 />
