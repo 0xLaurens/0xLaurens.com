@@ -20,9 +20,10 @@
                 <div class="card md:rounded-l-none h-full">
                     <div class="card-body text-lg font-normal font-custom">
                         <form
+                            id="contact"
                             name="contact"
                             method="POST"
-                            data-netlify="true"
+                            netlify
                             netlify-honeypot="bot-field"
                         >
                             <div class="grid md:grid-cols-2 md:gap-6">
@@ -101,4 +102,19 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+document.querySelector("form").addEventListener("submit", handleSubmit);
+
+const handleSubmit = (e) => {
+    e.preventDefault();
+    let Form = document.getElementById("contact");
+    let formData = new FormData(Form);
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+    })
+        .then(() => console.log("Form successfully submitted"))
+        .catch((error) => alert(error));
+};
+</script>
