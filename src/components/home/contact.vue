@@ -19,10 +19,16 @@
             <div class="col-span-3 md:col-span-2 row-span-3">
                 <div class="card md:rounded-l-none h-full">
                     <div class="card-body text-lg font-normal font-custom">
-                        <form>
+                        <form
+                            name="contact"
+                            method="POST"
+                            data-netlify="true"
+                            netlify-honeypot="bot-field"
+                        >
                             <div class="grid md:grid-cols-2 md:gap-6">
                                 <div class="relative z-0 mb-6 w-full group">
                                     <input
+                                        name="firstname"
                                         id="firstname"
                                         type="text"
                                         class="block py-2.5 px-0 w-full bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
@@ -35,8 +41,15 @@
                                         >First name</label
                                     >
                                 </div>
+
+                                <div class="hidden">
+                                    <label for="bot-field"
+                                        >Not intended for humans: <input name="bot-field"
+                                    /></label>
+                                </div>
                                 <div class="relative z-0 mb-6 w-full group">
                                     <input
+                                        name="lastname"
                                         id="lastname"
                                         class="block py-2.5 px-0 w-full bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
                                         placeholder=" "
@@ -51,6 +64,7 @@
                             </div>
                             <div class="relative z-0 mb-6 w-full group">
                                 <input
+                                    name="email"
                                     id="email"
                                     type="email"
                                     class="block py-2.5 px-0 w-full bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
@@ -66,13 +80,17 @@
                             <div class="py-2.5">
                                 <label for="message" class="block mb-2">Message</label>
                                 <textarea
+                                    name="message"
                                     id="message"
                                     class="textarea bg-inherit textarea-bordered outline-2 border-black border-2 focus:border-primary resize-y w-full capitalize font-custom"
                                     rows="3"
                                     placeholder="message"
                                 ></textarea>
                             </div>
-                            <button class="btn btn-primary w-full md:w-auto md:px-10 text-lg">
+                            <button
+                                type="submit"
+                                class="btn btn-primary w-full md:w-auto md:px-10 text-lg"
+                            >
                                 Submit.
                             </button>
                         </form>
