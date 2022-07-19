@@ -103,18 +103,22 @@
 </template>
 
 <script setup>
-document.querySelector("form").addEventListener("submit", handleSubmit);
+import { onMounted } from "vue";
 
-const handleSubmit = (e) => {
-    e.preventDefault();
-    let Form = document.getElementById("contact");
-    let formData = new FormData(Form);
-    fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-    })
-        .then(() => console.log("Form successfully submitted"))
-        .catch((error) => alert(error));
-};
+onMounted(() => {
+    document.querySelector("form").addEventListener("submit", handleSubmit);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        let myForm = document.getElementById("pizzaOrder");
+        let formData = new FormData(myForm);
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString(),
+        })
+            .then(() => console.log("Form successfully submitted"))
+            .catch((error) => alert(error));
+    };
+});
 </script>
