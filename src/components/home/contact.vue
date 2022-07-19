@@ -9,7 +9,11 @@
             </div>
 
             <div class="col-span-3 md:col-span-1 row-span-3 justify-self-center">
-                <img class="h-full max-w-s" src="../../assets/contact.svg" />
+                <img
+                    alt="Contact information."
+                    class="h-full max-w-s"
+                    src="../../assets/contact.svg"
+                />
             </div>
 
             <div class="col-span-3 md:col-span-2 row-span-3">
