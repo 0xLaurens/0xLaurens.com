@@ -22,9 +22,9 @@
                         <form
                             id="contact"
                             name="contact"
-                            method="POST"
                             netlify
                             netlify-honeypot="bot-field"
+                            onsubmit="submit"
                         >
                             <div class="grid md:grid-cols-2 md:gap-6">
                                 <div class="relative z-0 mb-6 w-full group">
