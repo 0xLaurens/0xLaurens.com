@@ -27,11 +27,11 @@
             </div>
 
             <div
-                class="col-span-3 md:col-span-2 row-span-3 row-start-2 md:row-start3 md:row-span-2"
+                class="col-span-3 lg:col-span-2 row-span-3 row-start-2 md:row-start3 md:row-span-2"
             >
                 <img
                     alt="Project thumbnail"
-                    class="rounded-xl md:rounded-tl-none h-full"
+                    class="rounded-xl md:rounded-tl-none object-contain"
                     src="https://www.webfx.com/wp-content/uploads/2021/10/softdash-website-template.png"
                 />
             </div>
