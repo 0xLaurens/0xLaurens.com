@@ -3,7 +3,10 @@
 
 <div align="center">
 
-<h1 align="center">0xLaurens Portfolio
+<h1 align="center">
+
+0xLaurens.com
+
 <div align="right">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7f44456a-6e33-4cb3-99b0-16eb8af3c296/deploy-status)](https://app.netlify.com/sites/0xlaurens/deploys)
@@ -21,9 +24,11 @@
 
 
 
-This is a personal portfolio site created as a hobby project in 2022. The project is intended to be a display of some of the work I have completed and to possibly generate new partnerships
+This is a personal portfolio site created as a hobby project in 2022. The project is intended to be a display of some of the work I have completed and to possibly generate new partnerships.
 
 The project is fully designed and coded by me. The design of the website was done in figma to generate a basic concept of the site I would develop.
+
+Visit the site at [0xLaurens.com](https://0xLaurens.com)
 
 ![image](https://user-images.githubusercontent.com/64641417/179782281-348da8a1-186b-4492-a59f-f2ef9910b44c.png)
 
