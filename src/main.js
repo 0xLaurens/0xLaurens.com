@@ -15,6 +15,7 @@ import landing from "./components/home/landing.vue"
 import portfolio from "./components/home/portfolio.vue"
 import skills from "./components/home/skills.vue"
 import contact from "./components/home/contact.vue"
+import detail from "./components/home/detail.vue"
 
 const app = createApp(App);
 
@@ -28,5 +29,6 @@ app
     .component("portfolio", portfolio)
     .component("skills", skills)
     .component("contact", contact)
+    .component("detail", detail)
 
 app.mount('#app')
