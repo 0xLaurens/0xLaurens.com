@@ -10,7 +10,7 @@
             :class="{ 'flex-row-reverse': index % 2 === 0 }"
         >
             <img
-                class="rounded-xl md:w-3/5 my-4 md:my-0"
+                class="rounded-xl md:w-3/5 my-4 md:my-0 object-cover"
                 src="https://www.datocms-assets.com/38195/1621499794-feedhive-io-macbook-pro-3.png"
             />
             <div :class="{ 'pl-0': index % 2 === 0 }" class="md:self-center md:px-10 md:w-2/5">
@@ -20,7 +20,7 @@
                     {{ project.short }}
                 </p>
                 <button
-                    class="justify-self-end btn btn-primary font-extrabold text-xl rounded-xl hover:bg-primary-focus w-64 md:w-full 2xl:w-96 my-5 xl:mt-96"
+                    class="btn btn-primary font-extrabold text-xl rounded-xl hover:bg-primary-focus w-64 md:w-full 2xl:w-96 my-5 xl:mt-96"
                 >
                     About
                     <arrow-right-icon class="ml-2 h-5" />
