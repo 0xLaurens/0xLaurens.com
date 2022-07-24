@@ -16,11 +16,11 @@
             <div :class="{ 'pl-0': index % 2 === 0 }" class="md:self-center md:px-10 md:w-2/5">
                 <h2 class="text-3xl underline underline-offset-4 font-bold">{{ project.title }}</h2>
                 <span class="text-xs">May 2022</span>
-                <p class="py-2 font-light text-lg 2xl:text-2xl">
+                <p class="py-2 font-light text-lg 2xl:text-2xl 2xl:max-w-xl">
                     {{ project.short }}
                 </p>
                 <button
-                    class="justify-self-end btn btn-primary font-extrabold text-xl rounded-xl hover:bg-primary-focus w-64 md:w-full my-5"
+                    class="justify-self-end btn btn-primary font-extrabold text-xl rounded-xl hover:bg-primary-focus w-64 md:w-full 2xl:w-96 my-5 xl:mt-96"
                 >
                     About
                     <arrow-right-icon class="ml-2 h-5" />
