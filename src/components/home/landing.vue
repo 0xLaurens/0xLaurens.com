@@ -1,15 +1,15 @@
 <template>
-    <div class="hero min-h-screen">
+    <div class="hero min-h-screen font-custom">
         <div class="hero-content text-center">
-            <div class="max-w-md">
-                <h1 class="font-medium text-xl md:text-left">Hi I'm,</h1>
+            <div class="max-w-lg">
+                <h1 class="font-normal text-xl md:text-left">Hi I'm,</h1>
                 <h1 id="home" class="title text-5xl font-bold mt-0 mb-2">
                     <span
                         class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
                         >Laurens Weterings.</span
                     >
                 </h1>
-                <h1 class="font-semibold text-2xl md:text-left">Software Developer.</h1>
+                <h1 class="font-semibold text-2xl">Student & Software Developer</h1>
                 <div class="py-6 px-10">
                     <a href="https://github.com/0xLaurens" target="_blank"
                         ><font-awesome-icon icon="fa-brands fa-github" class="h-7 mr-3"

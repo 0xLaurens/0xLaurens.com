@@ -2,17 +2,17 @@
     <div class="flex min-h-[110vh] font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 md:gap-y-4 self-center">
             <div class="col-span-3 rounded-lg">
-                <h1 id="about" class="title text-5xl font-bold">
-                    About.
+                <h1 id="about" class="title text-4xl font-bold">
+                    About me.
                     <div class="line w-32" />
                 </h1>
             </div>
 
             <div class="col-span-3 md:col-span-2 row-span-2 rounded-lg">
-                <p class="pt-4 md:py-6 font-light text-2xl md:text-3xl leading-relaxed xl:pr-96">
-                    I'm a <span class="underline">fullstack developer</span> based in the
-                    Netherlands. Currently studying Computer science at Avans University of applied
-                    sciences.
+                <p class="font-normal text-xl pt-4">
+                    I'm a Software Engineering student at Avans Hogeschool. I'm currently tinkering
+                    a lot in Linux, learning more about C and Rust. I enjoy learning about new
+                    technology and learning more about programming.
                 </p>
             </div>
 
