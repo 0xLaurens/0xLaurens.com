@@ -44,7 +44,7 @@ const mobileView = ref(false);
 const openMobileNav = ref(false);
 
 const currentSection = ref("");
-const links = ["home", "portfolio", "about", "skills", "contact"];
+const links = ["home", "about", "contact"];
 const options = {
     threshhold: 1,
 };

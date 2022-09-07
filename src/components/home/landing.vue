@@ -3,7 +3,7 @@
         <div class="hero-content text-center">
             <div class="max-w-md">
                 <h1 class="font-medium text-xl md:text-left">Hi I'm,</h1>
-                <h1 id="home" class="text-5xl font-bold mt-0 mb-2">
+                <h1 id="home" class="title text-5xl font-bold mt-0 mb-2">
                     <span
                         class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
                         >Laurens Weterings.</span
