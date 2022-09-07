@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: "'Roboto', serif"
+        custom: "'Inter', serif"
       }
     }
   },
