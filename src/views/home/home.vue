@@ -2,9 +2,9 @@
     <NavBar class="sticky top-0 z-50" />
     <detail id="" />
     <landing id="home" />
-    <portfolio id="portfolio" />
+    <!-- <portfolio id="portfolio" /> -->
     <about id="about" />
-    <skills id="skills" />
+    <!-- <skills id="skills" /> -->
     <contact id="contact" />
 
     <cfooter class="" />
