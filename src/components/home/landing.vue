@@ -1,18 +1,19 @@
 <template>
-    <div class="hero min-h-[110vh] bg-base-500 w-full font-custom py-20">
-        <div class="hero-content flex-col lg:flex-row">
-            <img
-                alt="Developer working at desk"
-                src="../../assets/dev.svg"
-                class="object-contain max-w-xs md:max-w-s lg:max-w-md xl:max-w-lg 2xl:max-w-xl 3xl:max-w-none"
-            />
-            <div class="max-w-md text-center md:text-left">
-                <h1 id="home" class="title text-5xl font-bold">“Laurens Weterings.”</h1>
+    <div class="hero min-h-screen">
+        <div class="hero-content text-center">
+            <div class="max-w-lg">
+                <h1 id="home" class="text-5xl font-bold">“Laurens Weterings.”</h1>
+                <p class="py-6 px-10">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <div></div>
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
-import { EyeIcon, UserIcon } from "@heroicons/vue/solid";
+import { EyeIcon, UserIcon, ArrowRightIcon } from "@heroicons/vue/solid";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 </script>

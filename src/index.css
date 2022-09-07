@@ -4,7 +4,7 @@
 
 /* DaisyUI altering */
 .btn {
-    @apply lowercase;
+    @apply capitalize;
 }
 
 .card-actions {
