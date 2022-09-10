@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar fixed bg-white shadow-lg z-50 px-5 lg:px-16 font-custom text-black">
+    <div class="navbar fixed backdrop-blur-md z-50 px-5 lg:px-16 font-custom text-black">
         <div class="flex-1">
             <a href="#home" class="btn btn-ghost normal-case text-xl font-bold"
                 ><span class="text-primary">0x</span>Laurens</a
