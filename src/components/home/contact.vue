@@ -1,10 +1,11 @@
 <template>
     <div class="flex min-h-[110vh] font-custom justify-center content-center py-20">
         <div class="grid grid-cols-3 grid-flow-row px-5 md:px-16 gap-y-10 self-center w-full">
-            <div class="col-span-3 rounded-lg">
-                <h1 id="contact" class="title text-5xl font-bold">
-                    Contact.
-                    <div class="line w-32" />
+            <div class="col-span-3 rounded-lg text-center">
+                <h1 id="contact" class="title text-5xl font-bold">Contact me.</h1>
+                <h1 class="text-xl font-bold">
+                    I <span class="text-primary"> Would Love</span> to
+                    <span class="text-primary"> Talk</span>.
                 </h1>
             </div>
 
@@ -92,7 +93,7 @@
                             <input
                                 type="submit"
                                 value="Submit."
-                                class="btn btn-primary w-full md:w-auto md:px-10 text-lg"
+                                class="btn btn-primary w-full md:px-10 text-lg"
                             />
                         </form>
                     </div>
