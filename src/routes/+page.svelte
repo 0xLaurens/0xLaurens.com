@@ -13,10 +13,26 @@
         </div>
         <div class="flex flex-col items-center sm:items-start">
             <div class="icons space-x-2 pt-2">
-                <button class="btn btn-sm btn-square" />
-                <button class="btn btn-sm btn-square" />
-                <button class="btn btn-sm btn-square" />
-                <button class="btn btn-sm btn-square" />
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/0xLaurens"
+                    class="btn btn-outline btn-md btn-square"><i class="text-xl bi bi-github" /></a
+                >
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/laurens-w-173494268/"
+                    class="btn  btn-outline btn-md btn-square"
+                    ><i class="text-xl bi bi-linkedin" /></a
+                >
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="mailto:laurens.weterings@gmail.com"
+                    class="btn  btn-outline btn-md btn-square"
+                    ><i class="text-xl bi bi-envelope-fill" /></a
+                >
             </div>
         </div>
     </div>
