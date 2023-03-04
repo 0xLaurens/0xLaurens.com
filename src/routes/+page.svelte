@@ -2,7 +2,9 @@
     <div class="mx-auto px-3 md:px-0 sm:w-full md:w-4/5 lg:w-3/5">
         <div class="profile flex flex-col sm:flex-row sm:inline-flex">
             <div class="profile-picture avatar">
-                <div class="self-center h-32 w-32 md:h-40 md:w-40 rounded-xl mx-auto">
+                <div
+                    class="self-center h-32 w-32 md:h-40 md:w-40 lg:w-56 lg:h-56 rounded-3xl mx-auto"
+                >
                     <img src="logo.jpg" alt="profile" />
                 </div>
             </div>
@@ -25,11 +27,11 @@
         </div>
         <div class="about pt-8">
             <p class="text-lg md:text-xl">
-                Hello! I'm a <span class="font-semibold text-primary">Software Engineering</span>
+                Hello! I'm a <span class="font-bold text-primary">Software Engineering</span>
                 student at Avans Hogeschool. I'm currently tinkering a lot in Linux, learning more about
                 C and Rust. I enjoy tinkering with new technologies and learning more about how the tech
                 we use works. Take a look at some of my
-                <a class="font-semibold link link-secondary" href=".">Projects→</a>
+                <a class="font-bold link link-secondary" href=".">Projects→</a>
             </p>
         </div>
     </div>
