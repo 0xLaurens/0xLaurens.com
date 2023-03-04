@@ -27,6 +27,6 @@
         student at Avans Hogeschool. I'm currently tinkering a lot in Linux, learning more about C and
         Rust. I enjoy tinkering with new technologies and learning more about how the tech we use works.
         Take a look at some of my
-        <a class="font-bold link link-secondary" href=".">Projects→</a>
+        <a class="font-bold link link-secondary" href="/Projects">Projects→</a>
     </p>
 </div>

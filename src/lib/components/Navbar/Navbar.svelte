@@ -13,7 +13,7 @@
     >
         <div class="links space-x-10 font-semibold text-xl">
             <a class="link link-hover" href="/">Home</a>
-            <a class="link link-hover" href="/">Projects</a>
+            <a class="link link-hover" href="/Projects">Projects</a>
             <a class="link link-hover" href="/">Resume</a>
         </div>
         <div class="theme-switch self-end">
