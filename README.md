@@ -1,18 +1,19 @@
-# create-svelte
+<div align="center">
+    <h1 align="center">0xLaurens.com</h1>
+    <div align="right">
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f44456a-6e33-4cb3-99b0-16eb8af3c296/deploy-status)](https://app.netlify.com/sites/0xlaurens/deploys)
 
-## Creating a project
+</div>
 
-If you're seeing this, you've probably already done this step. Congrats!
+</div>
+This is a personal portfolio site created as a hobby project in 2022. The project is intended to be a display of some of the work I have completed and to possibly generate new partnerships.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+The project is fully designed and coded by me. The design of the website was done in figma to generate a basic concept of the site I would develop.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Visit the site at [0xLaurens.com](https://0xLaurens.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Developing
 
@@ -33,6 +34,4 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<p align="right">(<a href="#top">back to top</a>)</p>
