@@ -8,7 +8,7 @@
     };
 </script>
 
-<div class="card bg-base-200 shadow-xl">
+<div class="card bg-base-200 shadow-xl my-10">
     <div class="card-body">
         <h2 class="card-title">{project.title}</h2>
         <p>{project.description}</p>
