@@ -24,7 +24,7 @@
     ];
 </script>
 
-<div class="title pt-24">
+<div class="title">
     <h3 class="text-3xl  font-bold">Projects</h3>
 </div>
 
