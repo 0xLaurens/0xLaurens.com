@@ -24,11 +24,11 @@
     ];
 </script>
 
-<div class="title">
+<div class="title pt-24">
     <h3 class="text-3xl  font-bold">Projects</h3>
 </div>
 
-<div class="projects pt-3">
+<div class="projects pt-4 lg:pt-3">
     {#each projects as project}
         <Project {project} />
     {/each}
