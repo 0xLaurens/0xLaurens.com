@@ -1,7 +1,7 @@
 <div class="profile flex flex-col sm:flex-row sm:inline-flex">
     <div class="profile-picture avatar">
         <div class="self-center h-32 w-32 md:h-40 md:w-40 lg:w-56 lg:h-56 rounded-3xl mx-auto">
-            <img src="logo.jpg" alt="profile" />
+            <img src="profile.jpg" alt="profile" />
         </div>
     </div>
     <div class="pt-3 sm:pt-0 self-center sm:pl-6 lg:pl-9">
