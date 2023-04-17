@@ -4,14 +4,22 @@
 
     const projects: ProjectInterface[] = [
         {
+            title: "chatr",
+            description:
+                "A web socket chat room built using rust and sveltekit.",
+            tags: ["Rust", "Svelte", "Websockets", "Axum"],
+            github: "https://github.com/0xLaurens/chatr",
+            website: "https://chatr.0xlaurens.com",
+        },
+        {
             title: "Triplo",
             description:
                 "A platform to explore new open-source projects. \
                 Users can join and explore open-source projects which they can apply to join. \
                 Projects contain tasks to show users what they are currently working on. ",
-            tags: ["angular", "typescript", "nestjs", "mongodb"],
+            tags: ["Angular", "Typescript", "Nestjs", "Mongodb"],
             github: "https://github.com/0xLaurens/Triplo",
-            website: "https://triplo.netlify.com",
+            website: "https://triplo.0xlaurens.com",
         },
         {
             title: "NoWaste",
