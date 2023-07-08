@@ -1,10 +1,5 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { themeChange } from "theme-change";
-
-    onMount(() => {
-        themeChange(false);
-    });
 </script>
 
 <div class="fixed w-full z-50 bg-base-100">
@@ -34,7 +29,7 @@
                 tabindex="0"
                 class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-                <li><a href="/">Home</a></li>
+                <li><a class="btn variant-filled-primary" href="/">Home</a></li>
                 <li><a href="/Projects">Projects</a></li>
             </ul>
         </div>

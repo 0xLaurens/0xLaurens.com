@@ -46,3 +46,5 @@
         <a class="font-bold link link-secondary" href="/Projects">Projects→</a>
     </p>
 </div>
+
+<button class="btn">button</button>
