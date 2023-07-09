@@ -5,6 +5,7 @@
   import "$lib/global.css";
 
   import Navbar from "$lib/components/Navbar/Navbar.svelte";
+  import {AppShell} from "@skeletonlabs/skeleton"
 </script>
 
 <Navbar />
