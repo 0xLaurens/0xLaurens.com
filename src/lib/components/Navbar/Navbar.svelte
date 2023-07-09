@@ -36,6 +36,6 @@
     <NavigationLinks />
   </div>
   <div class="theme-switch">
-    <LightSwitch />
+    <LightSwitch bgLight="bg-surface-200" bgDark="bg-surface-500" ring="ring-[2px] ring-surface-500/30" />
   </div>
 </div>
