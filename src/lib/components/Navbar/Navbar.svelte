@@ -1,8 +1,7 @@
 <script lang="ts">
-  import { LightSwitch } from "@skeletonlabs/skeleton";
+  import { LightSwitch, Drawer, drawerStore } from "@skeletonlabs/skeleton";
   import HamburgerIcon from "$lib/components/Icons/HamburgerIcon.svelte";
   import CloseIcon from "$lib/components/Icons/CloseIcon.svelte";
-  import { Drawer, drawerStore } from "@skeletonlabs/skeleton";
   import type { DrawerSettings } from "@skeletonlabs/skeleton";
   import NavigationLinks from "$lib/components/Navbar/NavigationLinks.svelte";
 
