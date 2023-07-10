@@ -1,10 +1,11 @@
 <script lang="ts">
     import Project from "$lib/components/Projects/Project.svelte";
     import type { Project as ProjectInterface } from "$lib/models/project.interface";
+    import ContentArea from "$lib/components/Layout/ContentArea.svelte";
 
     const projects: ProjectInterface[] = [
         {
-            title: "chatr",
+            title: "Chatr",
             description:
                 "A web socket chat room built using rust and sveltekit.",
             tags: ["Rust", "Svelte", "Websockets", "Axum"],
@@ -32,12 +33,12 @@
     ];
 </script>
 
-<div class="title">
-    <h3 class="text-3xl  font-bold">Projects</h3>
-</div>
+<ContentArea class="title">
+    <h3 class="text-3xl font-bold">Projects</h3>
+</ContentArea>
 
-<div class="projects pt-4 lg:pt-3">
+<ContentArea class="projects">
     {#each projects as project}
         <Project {project} />
     {/each}
-</div>
+</ContentArea>
