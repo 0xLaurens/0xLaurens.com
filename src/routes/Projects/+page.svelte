@@ -34,7 +34,7 @@
 </script>
 
 <ContentArea class="title">
-    <h3 class="text-3xl font-bold">Projects</h3>
+    <h1 class="h2 font-bold">Projects</h1>
 </ContentArea>
 
 <ContentArea class="projects">
