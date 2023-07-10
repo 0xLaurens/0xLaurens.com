@@ -11,14 +11,14 @@
   };
 </script>
 
-<Drawer {drawerSettings}>
+<Drawer {drawerSettings} bgDrawer="bg-[#eff1f5]">
   <div class="flex flex-col p-6 font-semibold text-xl">
     <div class="self-end">
-      <button class="btn bt0n-icon" on:click={drawerStore.close}
+      <button class="btn btn-icon" on:click={drawerStore.close}
         ><CloseIcon />
       </button>
     </div>
-    <div class="flex flex-col h-full justify-between space-y-3">
+    <div class="flex flex-col h-full justify-between space-y-6">
       <NavigationLinks />
     </div>
   </div>
