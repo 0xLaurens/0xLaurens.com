@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LightSwitch, Drawer, drawerStore } from "@skeletonlabs/skeleton";
+  import { LightSwitch, Drawer, drawerStore, modeCurrent } from "@skeletonlabs/skeleton";
   import HamburgerIcon from "$lib/components/Icons/HamburgerIcon.svelte";
   import CloseIcon from "$lib/components/Icons/CloseIcon.svelte";
   import type { DrawerSettings } from "@skeletonlabs/skeleton";
@@ -14,7 +14,7 @@
 <Drawer {drawerSettings}>
   <div class="flex flex-col p-6 font-semibold text-xl">
     <div class="self-end">
-      <button class="btn btn-icon" on:click={drawerStore.close}
+      <button class="btn bt0n-icon" on:click={drawerStore.close}
         ><CloseIcon />
       </button>
     </div>
@@ -32,10 +32,15 @@
       <HamburgerIcon />
     </button>
   </div>
-  <div class="links space-x-10 font-semibold text-xl hidden sm:flex">
+  <div>
+    <a class="text-2xl sm:text-3xl lg:text-4xl font-extrabold" href="/">
+      0xLaurens
+    </a>
+  </div>
+  <div class:!text-light-tertiary={$modeCurrent} class="links space-x-10 text-tertiary-500 text-md lg:text-xl hidden sm:flex">
     <NavigationLinks />
   </div>
   <div class="theme-switch">
-    <LightSwitch bgLight="bg-surface-200" bgDark="bg-surface-500" ring="ring-[2px] ring-surface-500/30" />
+    <LightSwitch bgLight="bg-surface-50/70" bgDark="bg-surface-500" ring="ring-[2px] ring-surface-500/30" />
   </div>
 </div>

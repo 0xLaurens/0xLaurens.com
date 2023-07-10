@@ -8,7 +8,15 @@ module.exports = {
     ),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        light: {
+          primary: '#1e66f5',
+          secondary: '#dd7878',
+          tertiary: '#8839ef',
+        } 
+      }
+    },
   },
   plugins: [...require("@skeletonlabs/skeleton/tailwind/skeleton.cjs")()],
 };
