@@ -1,12 +1,13 @@
 <script lang="ts">
   import ContentArea from "$lib/components/Layout/ContentArea.svelte";
+  import { modeCurrent } from "@skeletonlabs/skeleton";
   const sites = [
-    {name: "Faster Than Lime", url:"http://fasterthanli.me"},
-    {name: "Luke Smith (Linux)", url:"https://lukesmith.xyz"},
-    {name: "Joy of Code (Svelte)", url:"https://joyofcode.xyz"},
-    {name: "Programming.dev (Lemmy)", url:"https://programming.dev"},
-    {name: "Eric Murphy (Linux)", url:"http://ericmurphy.xyz"},
-  ]
+    { name: "Faster Than Lime", url: "http://fasterthanli.me" },
+    { name: "Luke Smith (Linux)", url: "https://lukesmith.xyz" },
+    { name: "Joy of Code (Svelte)", url: "https://joyofcode.xyz" },
+    { name: "Programming.dev (Lemmy)", url: "https://programming.dev" },
+    { name: "Eric Murphy (Linux)", url: "http://ericmurphy.xyz" },
+  ];
 </script>
 
 <ContentArea class="title">
@@ -26,7 +27,7 @@
 </ContentArea>
 
 <ContentArea class="Disclaimer">
-  <aside class="card p-4">
+  <aside class:!bg-slate-100={$modeCurrent} class="card p-4">
     <strong>Disclaimer</strong>
     <p>
       Linking a website here does not mean I resignate with everything they've
@@ -39,7 +40,12 @@
   <ul class="list-disc text-xl">
     {#each sites as site}
       <li>
-        <a class="underline text-warning-500" href={site.url}>{site.name}</a>
+        <a
+          class:!text-light-warning={$modeCurrent}
+          class="underline text-warning-500"
+          href={site.url}
+          >{site.name}
+        </a>
       </li>
     {/each}
   </ul>

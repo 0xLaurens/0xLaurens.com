@@ -17,7 +17,7 @@
   };
 </script>
 
-<Drawer {drawerSettings} bgDrawer="bg-[#eff1f5]">
+<Drawer {drawerSettings} bgDrawer="bg-slate-100">
   <div class="flex flex-col p-6 font-semibold text-xl">
     <div class="self-end">
       <button class="btn btn-icon" on:click={drawerStore.close}
@@ -46,7 +46,7 @@
     <NavigationLinks />
   </div>
   <LightSwitch
-    bgLight="bg-surface-50/70"
+    bgLight="bg-slate-100"
     bgDark="bg-surface-500"
     ring="ring-[2px] ring-surface-500/30"
   />
