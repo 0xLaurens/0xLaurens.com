@@ -30,24 +30,24 @@
   </div>
 </Drawer>
 
-<ContentArea>
-  <div class="container flex flex-wrap items-center justify-between">
-    <button class="btn btn-icon sm:hidden" on:click={drawerStore.open}>
-      <HamburgerIcon />
-    </button>
-    <a class="text-2xl sm:text-3xl lg:text-4xl font-extrabold" href="/">
-      0xLaurens
-    </a>
-    <div
-      class:!text-light-tertiary={$modeCurrent}
-      class="links space-x-10 text-tertiary-500 text-md lg:text-xl hidden sm:flex"
-    >
-      <NavigationLinks />
-    </div>
-    <LightSwitch
-      bgLight="bg-surface-50/70"
-      bgDark="bg-surface-500"
-      ring="ring-[2px] ring-surface-500/30"
-    />
+<div
+  class="container flex flex-wrap items-center justify-between py-3 px-6 md:px-0 mx-auto"
+>
+  <button class="btn btn-icon sm:hidden" on:click={drawerStore.open}>
+    <HamburgerIcon />
+  </button>
+  <a class="text-2xl sm:text-3xl lg:text-4xl font-extrabold" href="/">
+    0xLaurens
+  </a>
+  <div
+    class:!text-light-tertiary={$modeCurrent}
+    class="links space-x-10 text-tertiary-500 text-md lg:text-xl hidden sm:flex"
+  >
+    <NavigationLinks />
   </div>
-</ContentArea>
+  <LightSwitch
+    bgLight="bg-surface-50/70"
+    bgDark="bg-surface-500"
+    ring="ring-[2px] ring-surface-500/30"
+  />
+</div>

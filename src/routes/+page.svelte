@@ -8,7 +8,7 @@
     <Avatar
       initials="LW"
       src="profile.jpg"
-      class="self-center mt-6 sm:mt-0 h-40 w-40 lg:w-56 lg:h-56 mx-auto"
+      class="self-center h-40 w-40 lg:w-56 lg:h-56 mx-auto"
       rounded="rounded-3xl"
     />
     <div class="pt-3 sm:pt-0 self-center sm:pl-6 lg:pl-9">
@@ -53,25 +53,24 @@
       <a
         class:!text-light-tertiary={$modeCurrent}
         class="font-bold link text-tertiary-500 underline"
-        href="/Projects">Projects→</a
+        href="/Projects">Projects →</a
       >
     </p>
   </div>
 </ContentArea>
 
 <ContentArea class="Site Reason">
-  <div class="card bg-surface-50/70 p-4 space-y-3">
+  <div class="card bg-surface-50/70 p-4 space-y-4">
     <p>
-      It's quite challenging to find high quality Websites such as small Blogs
-      on the Internet. Since the Highest ranking sites are SEO optimized but often dont contain the content that you're looking for
+      Discovering interesting small websites is getting more difficult. Since search engines favor SEO optimized pages, filled with webscraped content, that add little to no value.
     </p>
 
     <p>
-      I have collected some sites I find Interesting at
+      Therefore I made this page where I share some of the sites that I found 
       <a
         class:!text-light-tertiary={$modeCurrent}
         class="font-bold link text-tertiary-500 underline"
-        href="/Projects">Links</a
+        href="/Links">Links →</a
       >
     </p>
   </div>
