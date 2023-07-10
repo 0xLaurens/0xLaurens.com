@@ -10,7 +10,9 @@
 
 <AppShell>
   <svelte:fragment slot="header">
-    <Navbar />
+    <div class="grid grid-cols-12">
+      <Navbar />
+    </div>
   </svelte:fragment>
   <div class="grid grid-cols-12 mt-16">
     <slot />
