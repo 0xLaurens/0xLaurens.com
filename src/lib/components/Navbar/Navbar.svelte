@@ -9,15 +9,15 @@
   import CloseIcon from "$lib/components/Icons/CloseIcon.svelte";
   import type { DrawerSettings } from "@skeletonlabs/skeleton";
   import NavigationLinks from "$lib/components/Navbar/NavigationLinks.svelte";
-  import ContentArea from "$lib/components/Layout/ContentArea.svelte";
 
-  const drawerSettings: DrawerSettings = {
+  let drawerSettings: DrawerSettings = {
     position: "left",
-    blur: true,
+    blur: "true",
   };
+  $: drawerSettings.bgDrawer = $modeCurrent ? "bg-slate-100" : "";
 </script>
 
-<Drawer {drawerSettings} bgDrawer="bg-slate-100">
+<Drawer {drawerSettings}>
   <div class="flex flex-col p-6 font-semibold text-xl">
     <div class="self-end">
       <button class="btn btn-icon" on:click={drawerStore.close}
@@ -33,7 +33,10 @@
 <div
   class="container flex flex-wrap items-center justify-between py-3 px-6 md:px-0 mx-auto"
 >
-  <button class="btn btn-icon sm:hidden" on:click={drawerStore.open}>
+  <button
+    class="btn btn-icon sm:hidden"
+    on:click={() => drawerStore.open(drawerSettings)}
+  >
     <HamburgerIcon />
   </button>
   <a class="text-2xl sm:text-3xl lg:text-4xl font-extrabold" href="/">
