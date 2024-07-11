@@ -1,5 +1,0 @@
-[phases.setup]
-nixPkgs = ["hugo", "node"]
-
-[phases.build]
-cmds = ['hugo --minify --gc']
