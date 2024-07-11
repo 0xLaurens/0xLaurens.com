@@ -1,9 +1,10 @@
-colorScheme = "noir"
+colorScheme = "congo"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = false
 enableCodeCopy = true
 mainSections = [ "posts" ]
+defaultBackgroundImage = "q"
 
 [header]
 layout = "basic"
@@ -13,9 +14,10 @@ showCopyright = true
 showThemeAttribution = false
 showAppearanceSwitcher = true
 showScrollToTop = true
+showMenu = ""
 
 [homepage]
-layout = "background"
+layout = "profile"
 showRecent = false
 showRecentItems = 5
 showMoreLink = true
@@ -23,6 +25,7 @@ showMoreLinkDest = "/blowfish_lite/posts"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
+homepageImage = "q"
 
 [article]
 showDate = true
@@ -55,6 +58,7 @@ groupByYear = true
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = true
+heroStyle = "background"
 
 [sitemap]
 excludedKinds = []
@@ -67,3 +71,6 @@ showTermCount = true
 [fathomAnalytics]
 
 [verification]
+
+[term]
+heroStyle = "big"

@@ -8,6 +8,9 @@ buildFuture = false
 enableEmoji = true
 googleAnalytics = ""
 
+baseUrl = "0xlaurens.com"
+languageCode = "en"
+
 [taxonomies]
 tag = "tags"
 category = "categories"
