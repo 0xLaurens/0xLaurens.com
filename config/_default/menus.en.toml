@@ -1,0 +1,21 @@
+[[main]]
+name = "Projects"
+pageRef = "projects"
+identifier = "J4vJv1ZIut"
+weight = 1 
+
+[[main]]
+name = "Links"
+pageRef = "links"
+identifier = "oDqnzokg3R"
+weight = 2
+
+[[footer]]
+name = "Projects"
+pageRef = "projects"
+weight = 1 
+
+[[footer]]
+name = "Links"
+pageRef = "links"
+weight = 2 

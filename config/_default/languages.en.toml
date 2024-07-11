@@ -1,0 +1,18 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "0xLaurens.com"
+contentDir = "content/en"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+description = " "
+dateFormat = "2 January 2006"
+
+[author]
+name = "Laurens Weterings"
+image = "profile-2024.jpg"
+bio = "Software Developer & Student"
+links = [ { github = "https://github.com/0xlaurens/" }, { linkedin = "https://linkedin.com/in/laurens-w" }, { email = "mailto:laurens.weterings@gmail.com" } ]
