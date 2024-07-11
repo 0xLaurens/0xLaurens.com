@@ -18,7 +18,7 @@ showMenu = ""
 
 [homepage]
 layout = "profile"
-showRecent = false
+showRecent = "disable"
 showRecentItems = 5
 showMoreLink = true
 showMoreLinkDest = "/blowfish_lite/posts"

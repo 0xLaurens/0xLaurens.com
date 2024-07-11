@@ -8,7 +8,7 @@ buildFuture = false
 enableEmoji = true
 googleAnalytics = ""
 
-baseUrl = "0xlaurens.com"
+baseUrl = "https://0xlaurens.com"
 languageCode = "en"
 
 [taxonomies]
