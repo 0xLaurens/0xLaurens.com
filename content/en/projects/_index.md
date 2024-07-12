@@ -42,8 +42,17 @@ DistriCache 🌐 is a proof-of-concept distributed in-memory key/value cache imp
 {{<keyword>}}Go{{</keyword>}}
 
 ## WeBall
-A proof-of-concept collection of eccomerce microservices. Microservices defined using ArchiMate and Domain driven design.
+A collection of e-commerce microservices is designed using ArchiMate and Domain-Driven Design. These microservices implement event-sourcing, CQRS, and eventual consistency, and share data through queues and exchanges using RabbitMQ.
+
 {{< github repo="Rensvdk20/WeBall" >}}
+
+{{<keywordList>}}
+{{<keyword>}}CSharp{{</keyword>}}
+{{<keyword>}}RabbitMQ{{</keyword>}}
+{{<keyword>}}Microservices{{</keyword>}}
+{{<keyword>}}DDD{{</keyword>}}
+{{</keywordList>}}
+
 
 
 ## Triplo
