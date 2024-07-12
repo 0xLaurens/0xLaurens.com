@@ -19,9 +19,9 @@ showMenu = ""
 [homepage]
 layout = "profile"
 showRecent = "disable"
-showRecentItems = 5
+showRecentItems = "0"
 showMoreLink = true
-showMoreLinkDest = "/blowfish_lite/posts"
+showMoreLinkDest = "/posts"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
