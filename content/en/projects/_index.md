@@ -11,9 +11,10 @@ A small overview of some of the projects that I have created.
 
 A peer-to-peer filesharing application. It allows users to share the application with each other without the need of a central server. The backend of the application is built using golang, WebRTC and websockets.
 
-View the application live @ [seemless.app](https://seemless.app)
+View the application live @ [drop.ihomer.nl](https://drop.ihomer.nl)
 
 {{< github repo="0xlaurens/seemless.app" >}}
+
 {{<keywordList>}}
 {{<keyword>}}Go{{</keyword>}}
 {{<keyword>}}Vue{{</keyword>}}
