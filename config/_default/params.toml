@@ -11,21 +11,21 @@ layout = "basic"
 
 [footer]
 showCopyright = true
-showThemeAttribution = false
+showThemeAttribution = false 
 showAppearanceSwitcher = true
 showScrollToTop = true
-showMenu = ""
+showMenu = true 
 
 [homepage]
 layout = "profile"
-showRecent = "disable"
-showRecentItems = 5
-showMoreLink = true
-showMoreLinkDest = "/blowfish_lite/posts"
+showRecent = false 
+showRecentItems = "0"
+showMoreLink = false
+showMoreLinkDest = "/posts"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-homepageImage = "q"
+homepageImage = ""
 
 [article]
 showDate = true
