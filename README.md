@@ -1,6 +1,12 @@
-# Blowfish - Lite Template
-This is a template for the Blowfish Hugo Theme. Feel free to use this repo as a quick way to get started with Blowfish. Please visit [Blowfish's main website](https://github.com/nunocoracao/blowfish) to read the complete documentation.
+# 0xLaurens.com
+Personal portfolio site built using Hugo since the content is static anyway.
 
-The template was built using the [Git option](https://nunocoracao.github.io/blowfish/docs/installation/#install-using-git) from Blowfish's installations instructions.
+## Dependancies
+- [Hugo](https://gohugo.io/installation/)
 
-![blowfish logo](https://github.com/nunocoracao/blowfish_lite/blob/main/logo.png?raw=true)
+## Development
+To develop and preview the site use the blowfish tooling.
+Install the CLI tool globally using npm (or other package manager):
+```
+npm i -g blowfish-tools
+```
