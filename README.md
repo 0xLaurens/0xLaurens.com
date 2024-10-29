@@ -12,3 +12,7 @@ Install the CLI tool globally using npm (or other package manager):
 ```
 npm i -g blowfish-tools
 ```
+Run the CLI
+```
+blowfish-tools
+```
