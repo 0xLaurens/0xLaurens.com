@@ -3,3 +3,6 @@ nixPkgs = ["hugo", "nodejs"]
 
 [phases.build]
 cmds = ['hugo --minify --gc']
+
+[[ nixpacks.included_files ]]
+paths = ["/public"]
