@@ -11,8 +11,28 @@ rtl = false
 description = " "
 dateFormat = "2 January 2006"
 
+[[params.author.links]]
+email = "mailto:laurens.weterings@gmail.com"
+
+[[params.author.links]]
+github = "https://github.com/0xlaurens/"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/laurens-w/"
+
 [author]
 name = "Laurens Weterings"
-image = "profile-2026.jpg"
 bio = "Software Developer & Student"
-links = [ { github = "https://github.com/0xlaurens/" }, { linkedin = "https://linkedin.com/in/laurens-w" }, { email = "mailto:laurens.weterings@gmail.com" } ]
+
+  [[author.links]]
+  github = "https://github.com/0xlaurens/"
+
+  [[author.links]]
+  linkedin = "https://linkedin.com/in/laurens-w"
+
+  [[author.links]]
+  email = "mailto:laurens.weterings@gmail.com"
+
+["params.author"]
+name = "Laurens Weterings"
+image = "profile-2026.jpg"

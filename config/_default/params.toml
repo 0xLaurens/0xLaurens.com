@@ -5,20 +5,26 @@ enableSearch = false
 enableCodeCopy = true
 mainSections = [ "posts" ]
 defaultBackgroundImage = "q"
+firebase = { }
+fathomAnalytics = { }
+verification = { }
+enableA11y = true
+enableStyledScrollbar = ""
+fingerprintAlgorithm = ""
 
 [header]
 layout = "basic"
 
 [footer]
 showCopyright = true
-showThemeAttribution = false 
+showThemeAttribution = false
 showAppearanceSwitcher = true
 showScrollToTop = true
-showMenu = true 
+showMenu = true
 
 [homepage]
 layout = "profile"
-showRecent = false 
+showRecent = false
 showRecentItems = "0"
 showMoreLink = false
 showMoreLinkDest = "/posts"
@@ -39,7 +45,7 @@ showEdit = false
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
-showPagination = true
+showPagination = false
 invertPagination = false
 showReadingTime = true
 showTableOfContents = true
@@ -47,7 +53,19 @@ showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = true
 showSummary = true
-sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email" ]
+sharingLinks = [
+  "linkedin",
+  "twitter",
+  "whatsapp",
+  "pinterest",
+  "reddit",
+  "facebook",
+  "email"
+]
+showViews = true
+showLikes = true
+layoutBackgroundHeaderSpace = ""
+showRelatedContent = false
 
 [list]
 showBreadcrumbs = false
@@ -61,16 +79,10 @@ constrainItemsWidth = true
 heroStyle = "background"
 
 [sitemap]
-excludedKinds = []
+excludedKinds = [ ]
 
 [taxonomy]
 showTermCount = true
-
-[firebase]
-
-[fathomAnalytics]
-
-[verification]
 
 [term]
 heroStyle = "big"
