@@ -11,14 +11,15 @@ rtl = false
 description = " "
 dateFormat = "2 January 2006"
 
-[[params.author.links]]
-email = "mailto:laurens.weterings@gmail.com"
 
 [[params.author.links]]
 github = "https://github.com/0xlaurens/"
 
 [[params.author.links]]
 linkedin = "https://www.linkedin.com/in/laurens-w/"
+
+[[params.author.links]]
+email = "mailto:laurens.weterings@gmail.com"
 
 [author]
 name = "Laurens Weterings"
